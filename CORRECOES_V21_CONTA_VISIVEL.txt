@@ -1,0 +1,21 @@
+ALTERAÇÕES V2.1 — ÚLTIMA CONTA VISÍVEL
+
+PROBLEMA ANTERIOR:
+Depois de mostrar o resultado, a escuta contínua reiniciava e a linha
+EU OUVI voltava a "…". As transcrições provisórias também apagavam a conta.
+
+CORREÇÃO:
+- O último cálculo reconhecido fica registrado em EU OUVI.
+- Mesmo que o microfone volte a ouvir, o cálculo permanece no campo.
+- Quando uma nova conta válida é calculada, a conta antiga é substituída pela nova.
+- Falas não entendidas e o comando "parar" preservam a última conta.
+- "Apagar / nova conta" e os comandos "apagar", "limpar", "zerar" limpam o campo.
+- O resultado e o histórico continuam funcionando normalmente.
+
+EXEMPLO:
+EU OUVI: 125 mais 37
+RESULTADO: 162
+(O microfone reinicia; "125 mais 37" continua visível.)
+
+Versão: 2.1-conta-visivel
+versionCode: 11 (permite atualização sobre a versão 2.0)

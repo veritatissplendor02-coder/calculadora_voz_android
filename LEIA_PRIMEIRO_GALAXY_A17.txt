@@ -1,0 +1,26 @@
+CALCULADORA POR VOZ — V2.2 — GALAXY A17
+========================================
+
+NOVIDADE: agora você consegue descer a tela para ver todas as contas.
+- Toque em "VER HISTÓRICO" para ir diretamente às operações anteriores.
+- Deslize para cima para ver as operações mais antigas.
+- Toque em "VOLTAR AO INÍCIO" para voltar ao microfone e ao resultado.
+- O histórico fica salvo mesmo após fechar o app, sem limite de oito contas.
+- "Apagar conta atual" NÃO apaga as contas antigas.
+- "APAGAR HISTÓRICO" pede confirmação para apagar os registros.
+
+CORREÇÕES MANTIDAS:
+- A conta atual continua visível em EU OUVI durante a escuta contínua.
+- 4200 dividido por 210 = 20.
+- Números em português brasileiro e comandos de voz são aceitos.
+
+PARA GERAR O APK
+1. Extraia todo o ZIP.
+2. Abra a pasta CalculadoraVozAndroid.
+3. Execute GERAR_APK_V22_HISTORICO_COMPLETO.bat.
+4. Envie Calculadora_por_Voz_Galaxy_A17_V22_HISTORICO_COMPLETO.apk ao celular.
+
+IMPORTANTE: compile no mesmo computador da instalação anterior para que a
+assinatura digital corresponda. Não desinstale a versão antiga para atualizar.
+Os cálculos anteriores ao V2.2 não eram salvos permanentemente, e não podem
+ser recuperados caso a versão antiga já tenha sido fechada.

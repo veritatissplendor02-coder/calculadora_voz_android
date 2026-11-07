@@ -1,0 +1,20 @@
+CALCULADORA POR VOZ - GERAR APK NO WINDOWS
+
+1. Extraia TODO o arquivo ZIP para uma pasta normal do Windows.
+2. Entre na pasta CalculadoraVozAndroid.
+3. Dê dois cliques em: GERAR_APK_V22_HISTORICO_COMPLETO.bat
+4. Se o Windows perguntar se deseja executar, permita.
+5. Na primeira execução o programa baixará automaticamente as ferramentas necessárias.
+6. Ao terminar, aparecerá nesta mesma pasta o arquivo:
+
+   Calculadora_por_Voz_Galaxy_A17_V22_HISTORICO_COMPLETO.apk
+
+7. Envie esse APK para o Galaxy A17 e abra-o para atualizar o aplicativo.
+
+IMPORTANTE
+- Para atualizar por cima da versão já instalada, gere o APK no MESMO computador usado anteriormente, para manter a mesma chave de assinatura.
+- É necessário estar conectado à internet durante a primeira geração.
+- Não feche a janela enquanto estiver baixando/compilando.
+- Se houver qualquer erro, tire uma foto da janela e envie ao ChatGPT.
+
+A versão 2.2 permite rolar a tela e salva todas as contas anteriores no aparelho.

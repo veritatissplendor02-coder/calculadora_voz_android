@@ -1,0 +1,29 @@
+CORREÇÕES V2.0
+
+1. Números com ponto de milhar em pt-BR
+   - 4.200 passa a ser interpretado como 4200.
+   - 1.234.567 passa a ser interpretado como 1234567.
+
+2. Vírgula decimal brasileira
+   - 4.200,50 é interpretado como 4200,50.
+   - 4,2 é interpretado como 4,2.
+
+3. R$ inserido indevidamente pelo reconhecimento de voz
+   - R$ / real / reais / BRL são ignorados durante a conta.
+   - O campo EU OUVI também esconde esse marcador quando ele aparece sozinho.
+
+4. Alternativas do reconhecimento
+   - Se a primeira hipótese do Android não formar uma conta válida, o app tenta as demais hipóteses reconhecidas.
+
+5. Versão
+   - versionCode: 10
+   - versionName: 2.0-correcao-numeros
+
+TESTES PRINCIPAIS EXECUTADOS
+- 4200 dividido por 210 = 20
+- 4.200 dividido por 210 = 20
+- R$ 4.200 dividido por 210 = 20
+- 4.200,50 mais 0,50 = 4201
+- 4,2 mais 1,8 = 6
+- 15 por cento de 240 = 36
+- raiz quadrada de 144 = 12

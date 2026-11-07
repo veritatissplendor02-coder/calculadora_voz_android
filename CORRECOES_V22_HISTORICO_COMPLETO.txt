@@ -1,0 +1,19 @@
+ALTERAÇÕES V2.2 — HISTÓRICO COMPLETO E ROLAGEM
+
+1. Tela inteira rolável com barra vertical visível (arrastar o dedo para cima).
+2. Botão "VER HISTÓRICO (N)" que desliza até a lista, e botão "VOLTAR AO INÍCIO".
+3. Seção de histórico colocada antes dos exemplos, para acesso rápido.
+4. Removido o limite de somente oito operações; todas as contas ficam registradas.
+5. Histórico salvo no armazenamento privado do aplicativo e restaurado ao abrir.
+6. "Apagar conta atual / nova conta" e comandos de voz "apagar/limpar/zerar"
+   limpam somente a conta atual, sem apagar o histórico.
+7. Apagar o histórico completo exige botão separado e confirmação.
+8. Mantido o comportamento da V2.1: EU OUVI não é apagado ao voltar a ouvir.
+
+Como consultar: toque VER HISTÓRICO, deslize o dedo para cima para ver contas
+mais antigas; toque VOLTAR AO INÍCIO para voltar ao resultado.
+
+LIMITE: histórico anterior à V2.2 não pode ser recuperado após fechar a
+versão antiga, pois não era salvo permanentemente.
+
+versionCode: 12; versionName: 2.2-historico-rolavel.
