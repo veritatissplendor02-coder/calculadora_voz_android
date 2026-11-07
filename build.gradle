@@ -1,3 +1,22 @@
 plugins {
-    id 'com.android.application' version '9.4.0' apply false
+    id 'com.android.application'
 }
+
+android {
+    namespace 'com.felipe.calculadoravoz'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.felipe.calculadoravoz'
+        minSdk 26
+        targetSdk 36
+        versionCode 12
+        versionName '2.2-historico-rolavel'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
